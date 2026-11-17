@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" width="520" height="140" role="img" aria-label="Babui Labs">
+  <g>
+  <defs>
+    <clipPath id="nest-clip">
+      <path d="M60 30 C86 32 96 60 90 86 C86 104 74 114 60 114 C46 114 34 104 30 86 C24 60 34 32 60 30 Z"/>
+    </clipPath>
+    <pattern id="weave" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <line x1="0" y1="0" x2="9" y2="0" stroke="#B9852A" stroke-width="1.6"/>
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#C99536" stroke-width="1.1"/>
+    </pattern>
+  </defs>
+
+  <!-- branch -->
+  <path d="M8 18 C40 8 80 8 112 14" fill="none" stroke="#1F5F5B" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M92 12 C98 2 108 0 114 2 C110 10 102 14 92 12 Z" fill="#2E8A73"/>
+
+  <!-- hanging strands -->
+  <path d="M57 13 L58 31" stroke="#B9852A" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M63 13 L62 31" stroke="#B9852A" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- nest body -->
+  <path d="M60 30 C86 32 96 60 90 86 C86 104 74 114 60 114 C46 114 34 104 30 86 C24 60 34 32 60 30 Z" fill="#E3B455"/>
+  <rect x="20" y="25" width="80" height="95" fill="url(#weave)" clip-path="url(#nest-clip)" opacity="0.85"/>
+
+  <!-- network woven into the nest -->
+  <g stroke="#1F5F5B" stroke-width="1.8" stroke-linecap="round" opacity="0.95">
+    <line x1="48" y1="58" x2="70" y2="52"/>
+    <line x1="48" y1="58" x2="58" y2="80"/>
+    <line x1="70" y1="52" x2="58" y2="80"/>
+    <line x1="70" y1="52" x2="78" y2="76"/>
+    <line x1="58" y1="80" x2="78" y2="76"/>
+    <line x1="58" y1="80" x2="48" y2="96"/>
+    <line x1="78" y1="76" x2="68" y2="98"/>
+    <line x1="48" y1="96" x2="68" y2="98"/>
+  </g>
+  <g fill="#1F5F5B">
+    <circle cx="48" cy="58" r="3.6"/>
+    <circle cx="70" cy="52" r="3.6"/>
+    <circle cx="58" cy="80" r="4.2"/>
+    <circle cx="78" cy="76" r="3.6"/>
+    <circle cx="48" cy="96" r="3.2"/>
+    <circle cx="68" cy="98" r="3.2"/>
+  </g>
+  <circle cx="58" cy="80" r="1.6" fill="#E3B455"/>
+
+  <!-- entrance tube -->
+  <path d="M53 110 C53 120 54 128 55 134 L65 134 C66 128 67 120 67 110 Z" fill="#D4A245"/>
+  <ellipse cx="60" cy="134" rx="5" ry="2.4" fill="#5A3E12"/>
+</g>
+  <text x="132" y="82" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="800" fill="#F4EBD8" letter-spacing="-1">Babui</text>
+  <text x="300" y="82" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="400" fill="#F4EBD8" letter-spacing="-1">Labs</text>
+  <text x="134" y="112" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#B8C9C6" letter-spacing="1.6">WE WEAVE AI SYSTEMS WITH CRAFT</text>
+</svg>

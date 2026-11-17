@@ -38,12 +38,10 @@ carefully, one tested piece at a time, made to last.
 - **Your code, your data:** clean, documented handover. Client data is never reused.
 - **Research-grade rigor:** held-out test sets, confidence intervals, and honest reporting of what didn't help.
 
-<!--
 ### 📂 Selected work
 
 | Project | Problem | Result | Links |
 |---|---|---|---|
-| RAG Eval Kit | ... | ... | [report](#) · [code](#) |
--->
+| **RAG Eval Kit** | A tutorial-style handbook chatbot gave a confident wrong answer to 1 question in 5. | Measured 7 fixes one at a time: wrong answers shown 20.7% → 2.4%, or 1.7% with a verifier gate, with every trade-off reported. | [report](https://babuilabs.github.io/rag-eval-kit/) · [code](https://github.com/babuilabs/rag-eval-kit) · [case study](https://github.com/babuilabs/rag-eval-kit/blob/main/docs/CASE_STUDY.md) |
 
 <p align="center"><sub>Woven with care · Babui Labs</sub></p>
